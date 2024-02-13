@@ -20,6 +20,7 @@ public class AccountServiceExceptionCaseTest {
 
 	@MockBean
 	private AccountsRepository accountsRepository;
+	
 	@Test
 	public void test1() {
 		

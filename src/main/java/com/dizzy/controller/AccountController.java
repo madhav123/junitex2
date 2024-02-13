@@ -29,7 +29,7 @@ public class AccountController {
     }
     @GetMapping("/myAccount1")
     public Accounts getAccountDetails() {
-        Accounts accounts = sccountService.getAccountDetails(23);
+        Accounts accounts = sccountService.getAccountDetails(1);
         if (accounts != null ) {
             return accounts;
         }else {
